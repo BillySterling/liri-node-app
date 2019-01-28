@@ -32,13 +32,22 @@ for (var i = 3; i < nodeArgs.length; i++) {
 
 console.log(searchVal);
 
-if (option === "concert-this") {
-    concertThis(searchVal);
-    } else 
-    if (option === "spotify-this-song") {
-        spotifyThisSong(searchVal);
-    };
-
+    switch(option) {
+        case "concert-this":
+            concertThis(searchVal);
+            break;
+        case "spotify-this-song":
+            spotifyThisSong(searchVal);
+            break;
+        case "movie-this":
+            movieThis(searchVal);
+            break;
+        case "do-what-it-says":
+            doWhatItSays(searchVal);
+            break;
+        default:
+            console.log("*** INVALID INPUT***");
+      };
 
 function concertThis(searchVal) {
     var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
@@ -83,4 +92,26 @@ function spotifyThisSong(searchVal) {
     .catch(function(err) {
       console.log(err);
     });
+}
+
+function movieThis(searchVal) {
+    if (!searchVal) {
+        searchVal = "Mr. Nobody";
+    }
+    //run a request with axios to the OMDB API with the movie specified
+    var queryUrl = "http://www.omdbapi.com/?t=" + searchVal + "&type=movie&y=&plot=short&apikey=trilogy";
+
+    console.log(queryUrl);
+
+    axios.get(queryUrl).then(
+    function(response) {
+        debugger;
+        console.log("movie-this response: ");
+        console.log("Title: " + response.data.Title);
+        console.log("Actors: " + response.data.Actors);
+        console.log("Year Released: " + response.data.Released);
+        console.log("IMDB Rating: " + response.data.Ratings[0].Value);
+        console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+    }
+    );
 }
