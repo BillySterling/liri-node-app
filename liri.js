@@ -32,22 +32,22 @@ for (var i = 3; i < nodeArgs.length; i++) {
 
 console.log(searchVal);
 
-    switch(option) {
-        case "concert-this":
-            concertThis(searchVal);
-            break;
-        case "spotify-this-song":
-            spotifyThisSong(searchVal);
-            break;
-        case "movie-this":
-            movieThis(searchVal);
-            break;
-        case "do-what-it-says":
-            doWhatItSays(searchVal);
-            break;
-        default:
-            console.log("*** INVALID INPUT***");
-      };
+switch(option) {
+    case "concert-this":
+        concertThis(searchVal);
+        break;
+    case "spotify-this-song":
+        spotifyThisSong(searchVal);
+        break;
+    case "movie-this":
+        movieThis(searchVal);
+        break;
+    case "do-what-it-says":
+        doWhatItSays(searchVal);
+        break;
+    default:
+        console.log("*** INVALID INPUT***");
+    };
 
 function concertThis(searchVal) {
     var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
@@ -55,22 +55,23 @@ function concertThis(searchVal) {
     axios.get(concertThisURL).then(
         function(response) {
         //console.log(response.data[0]);
-        debugger;
+        //debugger;
         concertData = response.data;
         console.log("concert-this response for :"  + searchVal);
-        for (var i = 0; i < concertData.length; i++) {
-            console.log("Venue Name: " + response.data[i].venue.name);
-            console.log("Venue Location: " + response.data[i].venue.city + " " + response.data[i].venue.region);
-            var concertDate = moment(response.data[i].datetime).format('MM/DD/YYYY');
+        debugger;
+        concertData.forEach(concert => {
+            console.log("Venue Name: " + concert.venue.name);
+            console.log("Venue Location: " + concert.venue.city + " " + concert.venue.region);
+            var concertDate = moment(concert.datetime).format('MM/DD/YYYY');
             console.log("Date: " + concertDate);
-            };
+            });
         }
-  )};
+  )}; 
 
 function spotifyThisSong(searchVal) {
     //console.log(searchVal);
     var spotify = new Spotify(keys.spotify);
-    var songLimit = 3;
+    var songLimit = 20;
     //If no song is provided then default to "The Sign" by Ace of Base.
     if (!searchVal) {
         searchVal = "The Sign Ace of Base";
@@ -82,12 +83,12 @@ function spotifyThisSong(searchVal) {
       //console.log(response.tracks.items);
       songData = response.tracks.items;
       console.log("spotify-this-song response: ");
-      for (var i = 0; i < songData.length; i++) {
-        console.log("Artist: " + songData[i].artists[0].name);
-        console.log("Song Name: " + songData[i].name);
-        console.log("Preview: " + songData[i].preview_url);
-        console.log("Album: " + songData[i].album.name);
-      };
+      songData.forEach(song => {
+        console.log("Artist: " + song.artists[0].name);
+        console.log("Song Name: " + song.name);
+        console.log("Preview: " + song.preview_url);
+        console.log("Album: " + song.album.name);
+      });
     })
     .catch(function(err) {
       console.log(err);
@@ -100,12 +101,10 @@ function movieThis(searchVal) {
     }
     //run a request with axios to the OMDB API with the movie specified
     var queryUrl = "http://www.omdbapi.com/?t=" + searchVal + "&type=movie&y=&plot=short&apikey=trilogy";
-
-    console.log(queryUrl);
+    //console.log(queryUrl);
 
     axios.get(queryUrl).then(
     function(response) {
-        debugger;
         console.log("movie-this response: ");
         console.log("Title: " + response.data.Title);
         console.log("Actors: " + response.data.Actors);
