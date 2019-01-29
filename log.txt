@@ -1,0 +1,323 @@
+concert-this response for: Poets of the Fall
+
+Venue Name: Atlas
+Venue Location: Kyiv 
+Date: 02/19/2019
+
+Venue Name: Rock Cafe
+Venue Location: Tallinn 
+Date: 02/20/2019
+
+Venue Name: Kosmonavt
+Venue Location: Saint Petersburg 
+Date: 02/22/2019
+
+Venue Name: Glavclub
+Venue Location: Moscow 
+Date: 02/23/2019
+
+Venue Name: Arena Hall
+Venue Location: Krasnodar 
+Date: 02/25/2019
+
+Venue Name: Tele Club
+Venue Location: Yekaterinburg 
+Date: 02/27/2019
+
+Venue Name: Nalen
+Venue Location: Norrmalm 
+Date: 03/16/2019
+
+Venue Name: John Dee
+Venue Location: Oslo 
+Date: 03/17/2019
+
+Venue Name: Melkweg
+Venue Location: Amsterdam 
+Date: 03/19/2019
+
+Venue Name: Les Etoiles
+Venue Location: Paris 
+Date: 03/20/2019
+
+Venue Name: Live Club
+Venue Location: Milan 
+Date: 03/21/2019
+
+Venue Name: Rytmikorjaamo 
+Venue Location: Seinäjoki 
+Date: 03/30/2019
+
+Venue Name: Finlandia-klubi
+Venue Location: Lahti 
+Date: 04/05/2019
+
+Venue Name: Hotel Leikari
+Venue Location: Kotka 
+Date: 04/06/2019
+
+Venue Name: The Circus
+Venue Location: Hki 
+Date: 04/13/2019
+
+Venue Name: Roxy
+Venue Location: Prague 
+Date: 04/23/2019
+
+Venue Name: Szene
+Venue Location: Vienna 
+Date: 04/24/2019
+
+Venue Name: A38
+Venue Location: Budapest 
+Date: 04/25/2019
+
+Venue Name: Kwadrat
+Venue Location: Kraków 
+Date: 04/26/2019
+
+Venue Name: Proxima
+Venue Location: Warsaw 
+Date: 04/27/2019
+
+Venue Name: M/S Viking Grace
+Venue Location: Turku 
+Date: 05/03/2019
+
+Venue Name: Ilovaarirock
+Venue Location: Joensuu 
+Date: 07/06/2019
+
+Venue Name: Center Stage ProgPower 2019
+Venue Location: Atlanta GA
+Date: 09/07/2019
+
+spotify-this-song response for: Jack Flash
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - Mono Version
+Preview: null
+Album: Hot Rocks 1964-1971
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - Mono
+Preview: null
+Album: The Rolling Stones In Mono (Remastered 2016)
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - Mono Version
+Preview: null
+Album: Hot Rocks (1964-1971)
+
+Artist: Ananda Shankar
+Song Name: Jumpin' Jack Flash
+Preview: https://p.scdn.co/mp3-preview/a22216eab5fc91587c8e0921183c01124e87a34d?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Ananda Shankar (US Internet Release)
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - (Original Single Mono Version)
+Preview: null
+Album: Singles 1968-1971
+
+Artist: Alex Chilton
+Song Name: Jumpin' Jack Flash
+Preview: https://p.scdn.co/mp3-preview/0b541e783fcd33107662626e740e48551a034717?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Free Again: The "1970" Sessions
+
+Artist: Aretha Franklin
+Song Name: Jumpin' Jack Flash
+Preview: https://p.scdn.co/mp3-preview/1f5feef23737797352d07bb60e29e20f1070cb19?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Jewels In The Crown: All Star Duets With The Queen
+
+Artist: Los Colognes
+Song Name: Jumpin' Jack Flash
+Preview: https://p.scdn.co/mp3-preview/99c5693da26f655258829e1550b79c6747f4fb38?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Jumpin' Jack Flash
+
+Artist: The Rolling Stones
+Song Name: Jumpin’ Jack Flash - Live
+Preview: null
+Album: Voodoo Lounge Uncut (Live)
+
+Artist: Motörhead
+Song Name: Jumpin' Jack Flash
+Preview: https://p.scdn.co/mp3-preview/a770d8dcaa93ac8c5f54b2278829ccf9c742e773?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Under Cöver
+
+Artist: The Rolling Stones
+Song Name: Jumpin’ Jack Flash - Live
+Preview: null
+Album: From The Vault: No Security - San Jose 1999 (Live)
+
+Artist: Glee Cast
+Song Name: Moves Like Jagger / Jumpin' Jack Flash (Glee Cast Version)
+Preview: https://p.scdn.co/mp3-preview/db0ac0cf7fad9fa4572dae48fb6b350e6accf4d0?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Moves Like Jagger / Jumpin' Jack Flash (Glee Cast Version)
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - Live
+Preview: null
+Album: Get Yer Ya-Ya's Out! The Rolling Stones In Concert (40th Anniversary Edition)
+
+Artist: Peter Frampton
+Song Name: Jumping Jack Flash - Live
+Preview: null
+Album: Frampton Comes Alive! (Deluxe Edition)
+
+Artist: Thelma Houston
+Song Name: Jumpin' Jack Flash
+Preview: null
+Album: Best Of Thelma Houston
+
+Artist: Johnny Winter
+Song Name: Jumpin' Jack Flash - Live
+Preview: https://p.scdn.co/mp3-preview/e075eacf0d436ee46b419957905548a052e436cd?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Johnny Winter And / Live
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - Live
+Preview: null
+Album: Get Yer Ya-Ya's Out! (Remastered)
+
+Artist: Amazonics
+Song Name: Jumpin' Jack Flash
+Preview: https://p.scdn.co/mp3-preview/74c68147b4c85815c150b459031ea2cfc7fb0f5f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Bossa N' Stones (Limited Edition)
+
+Artist: Tina Turner
+Song Name: Jumpin' Jack Flash - Live In Arnhem
+Preview: https://p.scdn.co/mp3-preview/d7b8fb7f38b76e50b48d12d1247a64e5ea716390?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Tina Live
+
+Artist: The Rolling Stones
+Song Name: Jumpin' Jack Flash - Mono Version
+Preview: null
+Album: The Rolling Stones Singles Collection: The London Years
+
+spotify-this-song response for: The Sign Ace of Base
+
+Artist: Ace of Base
+Song Name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Sign (US Album) [Remastered]
+
+movie-this response for: Star Wars
+
+Title: Star Wars: Episode IV - A New Hope
+Actors: Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing
+Year Released: 25 May 1977
+IMDB Rating: 8.6/10
+Rotten Tomatoes Rating: 93%
+
+movie-this response for: Mr. Nobody
+
+Title: Mr. Nobody
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Year Released: 26 Sep 2013
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+
+spotify-this-song response for: I Want it That Way
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Hits--Chapter One
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Millennium
+
+Artist: Anthem Lights
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Covers Part IV
+
+Artist: Tyler and Mark
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Beautiful Dreams
+
+Artist: "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Poodle Hat
+
+Artist: Dynamite Boy
+Song Name: I Want It That Way
+Preview: null
+Album: Punk Goes Pop
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: 90 Sweet 90s Hits!
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: NKOTBSB
+
+Artist: Glee Cast
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+
+Artist: Boyce Avenue
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Cover Sessions, Vol. 2
+
+Artist: Manuel Costa
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: I Want It That Way
+
+Artist: Steel Panther
+Song Name: I Want It That Way
+Preview: null
+Album: I Want It That Way
+
+Artist: Scary Pockets
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Nu Funk
+
+Artist: Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Selfies on Kodachrome
+
+Artist: "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Essential "Weird Al" Yankovic
+
+Artist: #90s Update
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: #90s Update
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: NOW That's What I Call 90s Pop
+
+Artist: Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: PMJ Is For Lovers: The Love Song Collection
+
+Artist: Landon Austin & Julia Sheer
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: I Want It That Way
+
+Artist: Kidz Bop Kids
+Song Name: I Want It That Way
+Preview: null
+Album: Kidz Bop
+
+*** INVALID INPUT *** 
+

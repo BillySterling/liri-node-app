@@ -20,19 +20,14 @@ var nodeArgs = process.argv;
 // Create an empty variable for holding the search name
 var searchVal = "";
 // Loop through all the words in the node argument
-//debugger;
 for (var i = 3; i < nodeArgs.length; i++) {
-
     if (i > 3 && i < nodeArgs.length) {
       searchVal = searchVal + "+" + nodeArgs[i];
     }
     else {
       searchVal += nodeArgs[i];
-  
     }
   }
-
-console.log(searchVal);
 
 getInput(option,searchVal);
 
@@ -51,30 +46,33 @@ function getInput(option,searchVal) {
             doWhatItSays(searchVal);
             break;
         default:
-            console.log("*** INVALID INPUT***");
-        };
+            logText = "*** INVALID INPUT *** \n\n";
+            console.log(logText);
+            logResponse(logText);
+    };
 };
 
 function concertThis(searchVal) {
     var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
-    //console.log(concertThisURL);
+    // remove the '+' characters for display
+    var dispVal = searchVal.replace(/\+/g, ' ');
+    logText = "concert-this response for: "  + dispVal + "\n\n";
     axios.get(concertThisURL).then(
         function(response) {
-        //console.log(response.data[0]);
-        //debugger;
+        debugger;
         concertData = response.data;
-        console.log("concert-this response for :"  + searchVal);
         concertData.forEach(concert => {
-            console.log("Venue Name: " + concert.venue.name);
-            console.log("Venue Location: " + concert.venue.city + " " + concert.venue.region);
             var concertDate = moment(concert.datetime).format('MM/DD/YYYY');
-            console.log("Date: " + concertDate);
+            logText = logText + "Venue Name: " + concert.venue.name + "\n" +          
+            "Venue Location: " + concert.venue.city + " " + concert.venue.region + "\n" +
+            "Date: " + concertDate + "\n\n";
             });
+        console.log(logText);
+        logResponse(logText);
         }
   )}; 
 
 function spotifyThisSong(searchVal) {
-    //console.log(searchVal);
     var spotify = new Spotify(keys.spotify);
     var songLimit = 20;
     //If no song is provided then default to "The Sign" by Ace of Base.
@@ -85,18 +83,22 @@ function spotifyThisSong(searchVal) {
 
     spotify.search({ type: 'track', query: searchVal, limit: songLimit})
     .then(function(response) {
-      //console.log(response.tracks.items);
-      songData = response.tracks.items;
-      console.log("spotify-this-song response: ");
-      songData.forEach(song => {
-        console.log("Artist: " + song.artists[0].name);
-        console.log("Song Name: " + song.name);
-        console.log("Preview: " + song.preview_url);
-        console.log("Album: " + song.album.name);
-      });
+        songData = response.tracks.items;
+        // remove the '+' characters for display
+        var dispVal = searchVal.replace(/\+/g, ' ');
+        logText = "spotify-this-song response for: "  + dispVal + "\n\n";
+        songData.forEach(song => {
+            logText = logText + "Artist: " + song.artists[0].name + "\n" +
+            "Song Name: " + song.name + "\n" +
+            "Preview: " + song.preview_url + "\n" +
+            "Album: " + song.album.name + "\n\n";
+        });
+      console.log(logText);
+      logResponse(logText);
     })
     .catch(function(err) {
       console.log(err);
+      logResponse(err);
     });
 }
 
@@ -106,17 +108,20 @@ function movieThis(searchVal) {
     }
     //run a request with axios to the OMDB API with the movie specified
     var queryUrl = "http://www.omdbapi.com/?t=" + searchVal + "&type=movie&y=&plot=short&apikey=trilogy";
-    //console.log(queryUrl);
+    // remove the '+' characters for display
+    var dispVal = searchVal.replace(/\+/g, ' ');
+    logText = "movie-this response for: "  + dispVal + "\n\n";
 
     axios.get(queryUrl).then(
     function(response) {
-        console.log("movie-this response: ");
-        console.log("Title: " + response.data.Title);
-        console.log("Actors: " + response.data.Actors);
-        console.log("Year Released: " + response.data.Released);
-        console.log("IMDB Rating: " + response.data.Ratings[0].Value);
-        console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
-    }
+        logText = logText + "Title: " + response.data.Title + "\n" +
+        "Actors: " + response.data.Actors + "\n" +
+        "Year Released: " + response.data.Released + "\n" +
+        "IMDB Rating: " + response.data.Ratings[0].Value + "\n" +
+        "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n\n";
+        console.log(logText);
+        logResponse(logText);
+        }
     );
 }
 
@@ -140,18 +145,16 @@ function doWhatItSays() {
     });
 };
 
-// append the text into the "log.txt" file.
-// If the file didn't exist, then it gets created on the fly.
-fs.appendFile("log.txt", text, function(err) {
-
-    // If an error was experienced we will log it.
-    if (err) {
-      console.log(err);
-    }
+function logResponse(logText) {
+    // append the text into the "log.txt" file.
+    // If the file didn't exist, then it gets created on the fly.
+    fs.appendFile("log.txt", logText, function(err) {  
+        // If an error was experienced we will log it.
+        if (err) {
+          console.log(err);
+        }
+    });
+    // clear out the log file before next input ptocesses
+    logText = "";
+};
   
-    // If no error is experienced, we'll log the phrase "Content Added" to our node console.
-    else {
-      console.log("Content Added!");
-    }
-  
-  });
