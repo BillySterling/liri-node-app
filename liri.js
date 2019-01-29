@@ -9,6 +9,8 @@ var fs = require('fs');
 
 // Add the code required to import the `keys.js` file and store it in a variable.
 var keys = require("./keys.js");
+// log file
+var logText = "";
 
 // store the command
 var option = process.argv[2];
@@ -137,3 +139,19 @@ function doWhatItSays() {
         getInput(option,searchVal);
     });
 };
+
+// append the text into the "log.txt" file.
+// If the file didn't exist, then it gets created on the fly.
+fs.appendFile("log.txt", text, function(err) {
+
+    // If an error was experienced we will log it.
+    if (err) {
+      console.log(err);
+    }
+  
+    // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+    else {
+      console.log("Content Added!");
+    }
+  
+  });
