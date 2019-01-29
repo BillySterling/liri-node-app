@@ -1,3 +1,112 @@
+spotify-this-song response for: Jumping Jack Flash
+
+Artist: Peter Frampton
+Song Name: Jumping Jack Flash - Live
+Preview: null
+Album: Frampton Comes Alive! (Deluxe Edition)
+
+Artist: Peter Frampton
+Song Name: Jumping Jack Flash
+Preview: null
+Album: Wind Of Change
+
+Artist: Peter Frampton
+Song Name: Jumping Jack Flash - Live In The United States/1976
+Preview: null
+Album: Frampton Comes Alive!
+
+Artist: Michael Giacchino
+Song Name: Jumping Jack's Flash
+Preview: null
+Album: Lost: The Last Episodes (Original Television Soundtrack)
+
+Artist: Leon Russell
+Song Name: Jumping Jack Flash/Youngblood - Live/Remastered
+Preview: null
+Album: Leon Live
+
+Artist: Bosa Nova All Star Orchestra
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/d30bad16d9871f35af42e600b82e2b7b5e387af2?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Bossa 'n Mix Vol 1
+
+Artist: Have Fun Teaching
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/71d82f672566dc806d95840c0f794f71d6d6619b?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Fitness Songs
+
+Artist: Peter Frampton
+Song Name: Jumping Jack Flash
+Preview: null
+Album: Shine On - A Collection
+
+Artist: Peter Frampton
+Song Name: Jumping Jack Flash - Live In The United States/1976
+Preview: null
+Album: Frampton Comes Alive
+
+Artist: Good Morning Blues
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/c1048b1a7d494fa42f74b9932b351aabaea6a0fc?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: But I Just Couldn´t Sleep,´cause Blues Was on My Mind
+
+Artist: Lullaby Mode
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/3dacab2b63b0776359f92a1df30c274500f8f803?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Lullaby Baby: The Best Songs of All Time Vol. 3
+
+Artist: Ständut Blakk
+Song Name: Jumping Jack flash- Jag ringer på fredag
+Preview: https://p.scdn.co/mp3-preview/b11a63249a21717439a1a73a6704936c6cbd1a4e?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Live från Sundsvalls Gatufest
+
+Artist: Lobster
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/061a3a9e86b72933f30c4e4d7f360f49907eae94?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Rock'n'roll Recycle
+
+Artist: The Viking Truckers
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/4463eb3738c252c014e5e49be2a6ed97fa5e2c6f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Lastbil hits
+
+Artist: Amazing Greys
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/b9ea1dbd64d6472f4913b2842d9cceebf59f1aca?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Going Down
+
+Artist: Tequila & Raelsy
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/8ea12565a4f7a3947d572aeed47d0237d1b2983a?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Jumping Jack Flash
+
+Artist: Inga Rumpf
+Song Name: Jumping Jack Flash - Live
+Preview: https://p.scdn.co/mp3-preview/2cc57cc6301daba5d12e47b2ce862b7dde4fdb7f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Get Rolling Stoned (Live)
+
+Artist: Chill Out Project
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/b86b2c360640ccd15771b5742823acf906a5a04a?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Greatest Hits In Bossa Nova
+
+Artist: Workout Music 
+Song Name: Jumping Jack Flash (Remix)
+Preview: https://p.scdn.co/mp3-preview/19f1ea20fa0c012653267c89e70c64df66707860?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: 70s Dance Party! Workout Music
+
+Artist: SCL
+Song Name: Jumping Jack Flash
+Preview: https://p.scdn.co/mp3-preview/c5b4afc3773e08956e41d49dfc196694b3f51b2b?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Trece
+
+spotify-this-song response for: The Sign Ace of Base
+
+Artist: Ace of Base
+Song Name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Sign (US Album) [Remastered]
+
 concert-this response for: Poets of the Fall
 
 Venue Name: Atlas
@@ -91,115 +200,6 @@ Date: 07/06/2019
 Venue Name: Center Stage ProgPower 2019
 Venue Location: Atlanta GA
 Date: 09/07/2019
-
-spotify-this-song response for: Jack Flash
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - Mono Version
-Preview: null
-Album: Hot Rocks 1964-1971
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - Mono
-Preview: null
-Album: The Rolling Stones In Mono (Remastered 2016)
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - Mono Version
-Preview: null
-Album: Hot Rocks (1964-1971)
-
-Artist: Ananda Shankar
-Song Name: Jumpin' Jack Flash
-Preview: https://p.scdn.co/mp3-preview/a22216eab5fc91587c8e0921183c01124e87a34d?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Ananda Shankar (US Internet Release)
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - (Original Single Mono Version)
-Preview: null
-Album: Singles 1968-1971
-
-Artist: Alex Chilton
-Song Name: Jumpin' Jack Flash
-Preview: https://p.scdn.co/mp3-preview/0b541e783fcd33107662626e740e48551a034717?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Free Again: The "1970" Sessions
-
-Artist: Aretha Franklin
-Song Name: Jumpin' Jack Flash
-Preview: https://p.scdn.co/mp3-preview/1f5feef23737797352d07bb60e29e20f1070cb19?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Jewels In The Crown: All Star Duets With The Queen
-
-Artist: Los Colognes
-Song Name: Jumpin' Jack Flash
-Preview: https://p.scdn.co/mp3-preview/99c5693da26f655258829e1550b79c6747f4fb38?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Jumpin' Jack Flash
-
-Artist: The Rolling Stones
-Song Name: Jumpin’ Jack Flash - Live
-Preview: null
-Album: Voodoo Lounge Uncut (Live)
-
-Artist: Motörhead
-Song Name: Jumpin' Jack Flash
-Preview: https://p.scdn.co/mp3-preview/a770d8dcaa93ac8c5f54b2278829ccf9c742e773?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Under Cöver
-
-Artist: The Rolling Stones
-Song Name: Jumpin’ Jack Flash - Live
-Preview: null
-Album: From The Vault: No Security - San Jose 1999 (Live)
-
-Artist: Glee Cast
-Song Name: Moves Like Jagger / Jumpin' Jack Flash (Glee Cast Version)
-Preview: https://p.scdn.co/mp3-preview/db0ac0cf7fad9fa4572dae48fb6b350e6accf4d0?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Moves Like Jagger / Jumpin' Jack Flash (Glee Cast Version)
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - Live
-Preview: null
-Album: Get Yer Ya-Ya's Out! The Rolling Stones In Concert (40th Anniversary Edition)
-
-Artist: Peter Frampton
-Song Name: Jumping Jack Flash - Live
-Preview: null
-Album: Frampton Comes Alive! (Deluxe Edition)
-
-Artist: Thelma Houston
-Song Name: Jumpin' Jack Flash
-Preview: null
-Album: Best Of Thelma Houston
-
-Artist: Johnny Winter
-Song Name: Jumpin' Jack Flash - Live
-Preview: https://p.scdn.co/mp3-preview/e075eacf0d436ee46b419957905548a052e436cd?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Johnny Winter And / Live
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - Live
-Preview: null
-Album: Get Yer Ya-Ya's Out! (Remastered)
-
-Artist: Amazonics
-Song Name: Jumpin' Jack Flash
-Preview: https://p.scdn.co/mp3-preview/74c68147b4c85815c150b459031ea2cfc7fb0f5f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Bossa N' Stones (Limited Edition)
-
-Artist: Tina Turner
-Song Name: Jumpin' Jack Flash - Live In Arnhem
-Preview: https://p.scdn.co/mp3-preview/d7b8fb7f38b76e50b48d12d1247a64e5ea716390?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: Tina Live
-
-Artist: The Rolling Stones
-Song Name: Jumpin' Jack Flash - Mono Version
-Preview: null
-Album: The Rolling Stones Singles Collection: The London Years
-
-spotify-this-song response for: The Sign Ace of Base
-
-Artist: Ace of Base
-Song Name: The Sign
-Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=2dc7c3505f86401b96c6a5ca7381f3d1
-Album: The Sign (US Album) [Remastered]
 
 movie-this response for: Star Wars
 
@@ -318,6 +318,4 @@ Artist: Kidz Bop Kids
 Song Name: I Want It That Way
 Preview: null
 Album: Kidz Bop
-
-*** INVALID INPUT *** 
 

@@ -149,6 +149,7 @@ function logResponse(logText) {
     // append the text into the "log.txt" file.
     // If the file didn't exist, then it gets created on the fly.
     fs.appendFile("log.txt", logText, function(err) {  
+
         // If an error was experienced we will log it.
         if (err) {
           console.log(err);
