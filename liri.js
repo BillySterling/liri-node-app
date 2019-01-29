@@ -59,7 +59,6 @@ function concertThis(searchVal) {
     logText = "concert-this response for: "  + dispVal + "\n\n";
     axios.get(concertThisURL).then(
         function(response) {
-        debugger;
         concertData = response.data;
         concertData.forEach(concert => {
             var concertDate = moment(concert.datetime).format('MM/DD/YYYY');
@@ -80,7 +79,6 @@ function spotifyThisSong(searchVal) {
         searchVal = "The Sign Ace of Base";
         songLimit = 1;
     }
-
     spotify.search({ type: 'track', query: searchVal, limit: songLimit})
     .then(function(response) {
         songData = response.tracks.items;
@@ -129,13 +127,12 @@ function doWhatItSays() {
     fs.readFile("random.txt", "utf8", function(error, data) {
         // If the code experiences any errors it will log the error to the console.
         if (error) {
-        return console.log(error);
+            return console.log(error);
         }    
         // We will then print the contents of data
         console.log(data);
         // create array from file
         var dataArr = data.split(',');   
-        //console.log("data: " + data);
         option = dataArr[0];
         searchVal = dataArr[1];
         // remove extra double quotes
@@ -149,13 +146,12 @@ function logResponse(logText) {
     // append the text into the "log.txt" file.
     // If the file didn't exist, then it gets created on the fly.
     fs.appendFile("log.txt", logText, function(err) {  
-
         // If an error was experienced we will log it.
         if (err) {
-          console.log(err);
+            console.log(err);
         }
     });
-    // clear out the log file before next input ptocesses
+    // clear out the log file before next input processes
     logText = "";
 };
   
