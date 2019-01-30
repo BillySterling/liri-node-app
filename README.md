@@ -28,7 +28,7 @@ In order to run this application locally you will need to install the following 
 * npm install node-spotify-api
 * npm install moment
 
-* The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
+The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
    * Step One: Visit <https://developer.spotify.com/my-applications/#!/>
 
@@ -40,8 +40,8 @@ In order to run this application locally you will need to install the following 
 
    * Step Five: Using the Spotify keys from step 4, create a .env file at the projet root directory and add the values as follows:
 
-        SPOTIFY_ID=your-spotify-id
-        SPOTIFY_SECRET=your-spotify-secret
+        *SPOTIFY_ID=your-spotify-id
+        *SPOTIFY_SECRET=your-spotify-secret
 
     See the included .env-template file as an example.
 
