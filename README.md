@@ -40,8 +40,8 @@ The Spotify API requires you sign up as a developer to generate the necessary cr
 
    * Step Five: Using the Spotify keys from step 4, create a .env file at the projet root directory and add the values as follows:
 
-        *SPOTIFY_ID=your-spotify-id
-        *SPOTIFY_SECRET=your-spotify-secret
+        * SPOTIFY_ID=your-spotify-id
+        * SPOTIFY_SECRET=your-spotify-secret
 
     See the included .env-template file as an example.
 
