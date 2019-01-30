@@ -63,9 +63,8 @@ liri.js can take in one of the following four commands:
 
     * *Artist(s)*
     * *The song's name*
-    * *A preview link of the song from Spotify*
+    * *A preview link of the song from Spotify (if available)*
     * *The album that the song is from*
-
     * *If no song is provided the program defaults to "The Sign" by Ace of Base.*
 
 3. `node liri.js movie-this '<movie name here>'`
