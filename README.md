@@ -86,11 +86,11 @@ liri.js can take in one of the following four commands:
 
     *It should run `spotify-this-song` for "I Want it That Way," as read from the text in `random.txt`.*
 
-    *Edit the text in random.txt to test out the feature for movie-this and concert-this.*
+    *Edit the text in `random.txt` to test out the feature for `movie-this` and `concert-this`.*
 
 ## Demo
 
-A demo of this assignment can be viewed [here](https://drive.google.com/file/d/1X-l7SZlw-d3SdG6MT8V3DByfbhmWHls7/view?usp=sharing)
+A demo video of this assignment can be viewed [here](https://drive.google.com/file/d/1X-l7SZlw-d3SdG6MT8V3DByfbhmWHls7/view?usp=sharing)
 
 
 An example log file of the output "log.txt" available in this repository.
