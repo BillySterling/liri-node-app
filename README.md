@@ -6,29 +6,27 @@ Georgia Tech Coding Bootcamp week 10 assignment
 
 For this assignment, we created LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node.js app that takes in parameters and gives you back data.
 
-###Packages Required:
+### Packages Required:
 
-We will use Axios to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+We will use Axios to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api): [Axios](https://www.npmjs.com/package/axios)
 
-[Axios](https://www.npmjs.com/package/axios)
-
-A simple to use API library for the Spotify REST API:
+A simple to use API library for the Spotify REST API: 
 [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
 
-JavaScript date library for parsing, validating, manipulating, and formatting dates:
+JavaScript date library for parsing, validating, manipulating, and formatting dates: 
 [Moment](https://www.npmjs.com/package/moment)
 
-Dotenv module that loads environment variables from a .env file (in this case, our Spotify API keys):
+Dotenv module that loads environment variables from a .env file (in this case, our Spotify API keys): 
 [DotEnv](https://www.npmjs.com/package/dotenv)
 
 ## Installation
 
 In order to run this application locally you will need to install the following npm packages (as referenced above):
 
-npm install axios
-npm install dotenv
-npm install node-spotify-api
-npm install moment
+* npm install axios
+* npm install dotenv
+* npm install node-spotify-api
+* npm install moment
 
 * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
