@@ -53,11 +53,9 @@ liri.js can take in one of the following four commands:
 
     *This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:*
 
-    *Name of the venue*
-
-    *Venue location*
-
-    *Date of the Event*
+    * *Name of the venue*
+    * *Venue location*
+    * *Date of the Event*
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
@@ -74,14 +72,14 @@ liri.js can take in one of the following four commands:
 
     *This will output the following information to your terminal/bash window:*
 
-    *Title of the movie.*
-    *Year the movie came out.*
-    *IMDB Rating of the movie.*
-    *Rotten Tomatoes Rating of the movie.*
-    *Country where the movie was produced.*
-    *Language of the movie.*
-    *Plot of the movie.*
-    *Actors in the movie.*
+    * *Title of the movie.*
+    * *Year the movie came out.*
+    * *IMDB Rating of the movie.*
+    * *Rotten Tomatoes Rating of the movie.*
+    * *Country where the movie was produced.*
+    * *Language of the movie.*
+    * *Plot of the movie.*
+    * *Actors in the movie.*
 
 4. `node liri.js do-what-it-says`
 
