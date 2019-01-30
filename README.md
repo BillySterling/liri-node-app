@@ -43,7 +43,7 @@ The Spotify API requires you sign up as a developer to generate the necessary cr
         * SPOTIFY_ID=your-spotify-id
         * SPOTIFY_SECRET=your-spotify-secret
 
-    See the included .env-template file as an example.
+    Refer to the .env-template file in the repository as an example.
 
 ## Usage
 
@@ -93,8 +93,7 @@ liri.js can take in one of the following four commands:
 
 ## Demo
 
-A demo of this assignment can be viewed here:
+A demo of this assignment can be viewed [here](https://drive.google.com/file/d/1X-l7SZlw-d3SdG6MT8V3DByfbhmWHls7/view?usp=sharing)
 
-https://drive.google.com/file/d/1X-l7SZlw-d3SdG6MT8V3DByfbhmWHls7/view?usp=sharing
 
-An example log file of the output "log.txt" also in this repository.
+An example log file of the output "log.txt" available in this repository.
