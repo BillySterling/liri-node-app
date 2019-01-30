@@ -43,7 +43,7 @@ The Spotify API requires you sign up as a developer to generate the necessary cr
         * SPOTIFY_ID=your-spotify-id
         * SPOTIFY_SECRET=your-spotify-secret
 
-    Refer to the `env-template.txt` file in the repository as an example.
+   * Refer to the `env-template.txt` file in the repository as an example.
 
 ## Usage
 
