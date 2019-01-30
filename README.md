@@ -84,7 +84,7 @@ liri.js can take in one of the following four commands:
 
     *Using the `fs` Node package, LIRI will take the text inside of file `random.txt` and then use it to call one of LIRI's commands.*
 
-    *It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.*
+    *It should run `spotify-this-song` for "I Want it That Way," as read from the text in `random.txt`.*
 
     *Edit the text in random.txt to test out the feature for movie-this and concert-this.*
 
