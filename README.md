@@ -1,12 +1,12 @@
 # liri-node-app
 
-Georgia Tech Coding Bootcamp week 10 assignment
+Georgia Tech Coding Bootcamp week 10 **Node.js** assignment
 
-### Overview
+## Overview
 
-For this assignment, we created LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node.js app that takes in parameters and gives you back data.
+For this assignment, we created LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line Node.js app that takes in parameters and gives you back data.
 
-### Packages Required:
+## Packages Required:
 
 We will use Axios to grab data from the [OMDB API](http://www.omdbapi.com) and the [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api): [Axios](https://www.npmjs.com/package/axios)
 
@@ -63,12 +63,12 @@ liri.js can take in one of the following four commands:
 
     *This will show the following information about the song in your terminal/bash window:*
 
-    *Artist(s)*
-    *The song's name*
-    *A preview link of the song from Spotify*
-    *The album that the song is from*
+    * *Artist(s)*
+    * *The song's name*
+    * *A preview link of the song from Spotify*
+    * *The album that the song is from*
 
-    *If no song is provided the program defaults to "The Sign" by Ace of Base.*
+    * *If no song is provided the program defaults to "The Sign" by Ace of Base.*
 
 3. `node liri.js movie-this '<movie name here>'`
 
