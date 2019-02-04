@@ -19,6 +19,9 @@ JavaScript date library for parsing, validating, manipulating, and formatting da
 Dotenv module that loads environment variables from a .env file (in this case, our Spotify API keys): 
 [DotEnv](https://www.npmjs.com/package/dotenv)
 
+Interactive Command Line User Interfaces:
+[Inquirer](https://www.npmjs.com/package/inquirer)
+
 ## Installation
 
 In order to run this application locally you will need to install the following npm packages (as referenced above):
@@ -27,6 +30,7 @@ In order to run this application locally you will need to install the following 
 * npm install dotenv
 * npm install node-spotify-api
 * npm install moment
+* npm install inquirer
 
 The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
@@ -47,19 +51,23 @@ The Spotify API requires you sign up as a developer to generate the necessary cr
 
 ## Usage
 
-liri.js can take in one of the following four commands:
+`node liri.js`
 
-1. `node liri.js concert-this <artist/band name here>`
+liri.js CLI will then offer one of the following four options:
 
-    *This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:*
+1. `concert-this`
+
+    *This will prompt the user for an artist or band and then search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:*
 
     * *Name of the venue*
     * *Venue location*
     * *Date of the Event*
 
-2. `node liri.js spotify-this-song '<song name here>'`
 
-    *This will show the following information about the song in your terminal/bash window:*
+
+2. `spotify-this-song`
+
+    *This will prompt the user for a song name and will then show the following information about the song in your terminal/bash window:*
 
     * *Artist(s)*
     * *The song's name*
@@ -67,9 +75,11 @@ liri.js can take in one of the following four commands:
     * *The album that the song is from*
     * *If no song is provided the program defaults to "The Sign" by Ace of Base.*
 
-3. `node liri.js movie-this '<movie name here>'`
 
-    *This will output the following information to your terminal/bash window:*
+
+3. `movie-this`
+
+    *This will prompt the user for a movie name and will output the following information to your terminal/bash window:*
 
     * *Title of the movie.*
     * *Year the movie came out.*
@@ -80,9 +90,11 @@ liri.js can take in one of the following four commands:
     * *Plot of the movie.*
     * *Actors in the movie.*
 
-4. `node liri.js do-what-it-says`
 
-    *Using the `fs` Node package, LIRI will take the text inside of file `random.txt` and then use it to call one of LIRI's commands.*
+
+4. `do-what-it-says`
+
+    *This selection has no further options. Using the `fs` Node package, LIRI will take the text inside of file `random.txt` and then use it to call one of LIRI's commands.*
 
     *It should run `spotify-this-song` for "I Want it That Way," as read from the text in `random.txt`.*
 
