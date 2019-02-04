@@ -3,33 +3,50 @@ require("dotenv").config();
 var axios = require("axios");
 var Spotify = require('node-spotify-api');
 var moment = require('moment');
+// Load the NPM Package inquirer
+var inquirer = require("inquirer");
 moment().format();
 // file system builtin
-var fs = require('fs'); 
+var fs = require('fs');
+var option = ""; 
+var searchVal = "";
 
 // Add the code required to import the `keys.js` file and store it in a variable.
 var keys = require("./keys.js");
 // log file
 var logText = "";
 
-// store the command
-var option = process.argv[2];
-console.log(option);
-// Store all of the arguments in an array
-var nodeArgs = process.argv;
-// Create an empty variable for holding the search name
-var searchVal = "";
-// Loop through all the words in the node argument
-for (var i = 3; i < nodeArgs.length; i++) {
-    if (i > 3 && i < nodeArgs.length) {
-      searchVal = searchVal + "+" + nodeArgs[i];
-    }
-    else {
-      searchVal += nodeArgs[i];
-    }
-  }
+userOption();
 
-getInput(option,searchVal);
+function userOption () {
+    inquirer.prompt([
+        {
+            type: "list",
+            name: "option",
+            message: "Which LIRI Function Do You Want?",
+            choices: ["concert-this","spotify-this-song","movie-this","do-what-it-says"]
+        }
+    ]).then(function(choice) {  
+        option = choice.option;
+        if (option !== "do-what-it-says") {
+            // if NOT option "do-what-it-says" then prompt the user to input a search string
+            inquirer.prompt([
+                {
+                    type: "input",
+                    name: "search",
+                    message: "Enter Your Desired Search"
+                }
+            ]).then(function(response) { 
+                // remove spaces, concatenate search string with "+" value
+                searchVal = response.search.replace(" ", "+");
+                getInput(option,searchVal);  
+            });   
+        } else {
+            // the "do-what-it-says" option has no additional search parameter
+            getInput(option);  
+        }
+    });
+};
 
 function getInput(option,searchVal) {
     switch(option) {
@@ -43,12 +60,13 @@ function getInput(option,searchVal) {
             movieThis(searchVal);
             break;
         case "do-what-it-says":
-            doWhatItSays(searchVal);
+            doWhatItSays();
             break;
         default:
             logText = "*** INVALID INPUT *** \n\n";
             console.log(logText);
             logResponse(logText);
+            reRun();
     };
 };
 
@@ -56,7 +74,9 @@ function concertThis(searchVal) {
     var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
     // remove the '+' characters for display
     var dispVal = searchVal.replace(/\+/g, ' ');
-    logText = "concert-this response for: "  + dispVal + "\n\n";
+    logText = ("*********************************************************\n");
+    logText = logText + "concert-this response for: "  + dispVal + "\n";
+    logText = logText + ("*********************************************************\n\n");
     axios.get(concertThisURL).then(
         function(response) {
         concertData = response.data;
@@ -68,8 +88,9 @@ function concertThis(searchVal) {
             });
         console.log(logText);
         logResponse(logText);
+        reRun();
         }
-  )}; 
+)}; 
 
 function spotifyThisSong(searchVal) {
     var spotify = new Spotify(keys.spotify);
@@ -84,19 +105,22 @@ function spotifyThisSong(searchVal) {
         songData = response.tracks.items;
         // remove the '+' characters for display
         var dispVal = searchVal.replace(/\+/g, ' ');
-        logText = "spotify-this-song response for: "  + dispVal + "\n\n";
+        logText = ("*********************************************************\n");
+        logText = logText + "spotify-this-song response for: "  + dispVal + "\n";
+        logText = logText + ("*********************************************************\n\n");
         songData.forEach(song => {
             logText = logText + "Artist: " + song.artists[0].name + "\n" +
             "Song Name: " + song.name + "\n" +
             "Preview: " + song.preview_url + "\n" +
             "Album: " + song.album.name + "\n\n";
         });
-      console.log(logText);
-      logResponse(logText);
+    console.log(logText);
+    logResponse(logText);
+    reRun();
     })
     .catch(function(err) {
-      console.log(err);
-      logResponse(err);
+    console.log(err);
+    logResponse(err);
     });
 }
 
@@ -108,7 +132,9 @@ function movieThis(searchVal) {
     var queryUrl = "http://www.omdbapi.com/?t=" + searchVal + "&type=movie&y=&plot=short&apikey=trilogy";
     // remove the '+' characters for display
     var dispVal = searchVal.replace(/\+/g, ' ');
-    logText = "movie-this response for: "  + dispVal + "\n\n";
+    logText = ("*********************************************************\n");
+    logText = logText + "movie-this response for: "  + dispVal + "\n";
+    logText = logText + ("*********************************************************\n\n");
 
     axios.get(queryUrl).then(
     function(response) {
@@ -119,6 +145,7 @@ function movieThis(searchVal) {
         "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n\n";
         console.log(logText);
         logResponse(logText);
+        reRun();
         }
     );
 }
@@ -139,8 +166,29 @@ function doWhatItSays() {
         searchVal = searchVal.replace(/\"/g, '');
         // call the main input process with the values from the file
         getInput(option,searchVal);
+        reRun();
     });
 };
+
+//option to search again or exit
+function reRun() {
+    inquirer.prompt([
+        {
+        type: "list",
+        message: "Search again or exit?",
+        choices: ["Search", "Exit"],
+        name: "again"
+        }
+    ]).then(function(response) {
+        var answer = response.again;
+        if (answer === 'Search') {
+            userOption();
+        }
+        else {
+            console.log("Thanks, goodbye!");
+        }
+    });
+}
 
 function logResponse(logText) {
     // append the text into the "log.txt" file.
@@ -154,4 +202,3 @@ function logResponse(logText) {
     // clear out the log file before next input processes
     logText = "";
 };
-  
