@@ -34,7 +34,7 @@ function userOption () {
                 {
                     type: "input",
                     name: "search",
-                    message: "Enter Your Desired Search"
+                    message: "Enter Your Desired Search",
                 }
             ]).then(function(response) { 
                 // remove spaces, concatenate search string with "+" value
@@ -64,7 +64,6 @@ function getInput(option,searchVal) {
             break;
         default:
             logText = "*** INVALID INPUT *** \n\n";
-            console.log(logText);
             logResponse(logText);
     }; 
 };
@@ -85,9 +84,12 @@ function concertThis(searchVal) {
             "Venue Location: " + concert.venue.city + " " + concert.venue.region + "\n" +
             "Date: " + concertDate + "\n\n";
             });
+        console.log(logText);
         logResponse(logText);
+        reRun();
         }
-)}; 
+    );
+};
 
 function spotifyThisSong(searchVal) {
     var spotify = new Spotify(keys.spotify);
@@ -111,12 +113,15 @@ function spotifyThisSong(searchVal) {
             "Preview: " + song.preview_url + "\n" +
             "Album: " + song.album.name + "\n\n";
         });
+    console.log(logText);
     logResponse(logText);
+    reRun();
     })
     .catch(function(err) {
+    console.log(err);
     logResponse(err);
     });
-}
+};
 
 function movieThis(searchVal) {
     if (!searchVal) {
@@ -137,10 +142,12 @@ function movieThis(searchVal) {
         "Year Released: " + response.data.Released + "\n" +
         "IMDB Rating: " + response.data.Ratings[0].Value + "\n" +
         "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n\n";
+        console.log(logText);
         logResponse(logText);
+        reRun();
         }
     );
-}
+};
 
 function doWhatItSays() {
     fs.readFile("random.txt", "utf8", function(error, data) {
@@ -161,6 +168,28 @@ function doWhatItSays() {
     });
 };
 
+//option to search again or exit
+function reRun() {
+    inquirer.prompt([
+        {
+        type: "list",
+        message: "Search again or exit?",
+        choices: ["Search", "Exit"],
+        name: "again"
+        }
+    ]).then(function(response) {
+        var answer = response.again;
+        if (answer === "Search") {
+            userOption();
+        }
+        else {
+            logText = "Thank you - goodbye";
+            console.log(logText);
+            logResponse(logText);
+        }
+    });
+};
+
 function logResponse(logText) {
     // append the text into the "log.txt" file.
     // If the file didn't exist, then it gets created on the fly.
@@ -169,9 +198,9 @@ function logResponse(logText) {
         if (err) {
             console.log(err);
         } else {
-            console.log(logText);
             // clear out the log file before next input processes
             logText = "";
         }
     });
+logText = "";    
 };
