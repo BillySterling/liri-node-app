@@ -66,15 +66,14 @@ function getInput(option,searchVal) {
             logText = "*** INVALID INPUT *** \n\n";
             console.log(logText);
             logResponse(logText);
-            reRun();
-    };
+    }; 
 };
 
 function concertThis(searchVal) {
     var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
     // remove the '+' characters for display
     var dispVal = searchVal.replace(/\+/g, ' ');
-    logText = ("*********************************************************\n");
+    logText = ("\n*********************************************************\n");
     logText = logText + "concert-this response for: "  + dispVal + "\n";
     logText = logText + ("*********************************************************\n\n");
     axios.get(concertThisURL).then(
@@ -86,9 +85,7 @@ function concertThis(searchVal) {
             "Venue Location: " + concert.venue.city + " " + concert.venue.region + "\n" +
             "Date: " + concertDate + "\n\n";
             });
-        console.log(logText);
         logResponse(logText);
-        reRun();
         }
 )}; 
 
@@ -105,7 +102,7 @@ function spotifyThisSong(searchVal) {
         songData = response.tracks.items;
         // remove the '+' characters for display
         var dispVal = searchVal.replace(/\+/g, ' ');
-        logText = ("*********************************************************\n");
+        logText = ("\n*********************************************************\n");
         logText = logText + "spotify-this-song response for: "  + dispVal + "\n";
         logText = logText + ("*********************************************************\n\n");
         songData.forEach(song => {
@@ -114,12 +111,9 @@ function spotifyThisSong(searchVal) {
             "Preview: " + song.preview_url + "\n" +
             "Album: " + song.album.name + "\n\n";
         });
-    console.log(logText);
     logResponse(logText);
-    reRun();
     })
     .catch(function(err) {
-    console.log(err);
     logResponse(err);
     });
 }
@@ -132,7 +126,7 @@ function movieThis(searchVal) {
     var queryUrl = "http://www.omdbapi.com/?t=" + searchVal + "&type=movie&y=&plot=short&apikey=trilogy";
     // remove the '+' characters for display
     var dispVal = searchVal.replace(/\+/g, ' ');
-    logText = ("*********************************************************\n");
+    logText = ("\n*********************************************************\n");
     logText = logText + "movie-this response for: "  + dispVal + "\n";
     logText = logText + ("*********************************************************\n\n");
 
@@ -143,9 +137,7 @@ function movieThis(searchVal) {
         "Year Released: " + response.data.Released + "\n" +
         "IMDB Rating: " + response.data.Ratings[0].Value + "\n" +
         "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n\n";
-        console.log(logText);
         logResponse(logText);
-        reRun();
         }
     );
 }
@@ -166,29 +158,8 @@ function doWhatItSays() {
         searchVal = searchVal.replace(/\"/g, '');
         // call the main input process with the values from the file
         getInput(option,searchVal);
-        reRun();
     });
 };
-
-//option to search again or exit
-function reRun() {
-    inquirer.prompt([
-        {
-        type: "list",
-        message: "Search again or exit?",
-        choices: ["Search", "Exit"],
-        name: "again"
-        }
-    ]).then(function(response) {
-        var answer = response.again;
-        if (answer === 'Search') {
-            userOption();
-        }
-        else {
-            console.log("Thanks, goodbye!");
-        }
-    });
-}
 
 function logResponse(logText) {
     // append the text into the "log.txt" file.
@@ -197,8 +168,10 @@ function logResponse(logText) {
         // If an error was experienced we will log it.
         if (err) {
             console.log(err);
+        } else {
+            console.log(logText);
+            // clear out the log file before next input processes
+            logText = "";
         }
     });
-    // clear out the log file before next input processes
-    logText = "";
 };
