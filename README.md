@@ -102,7 +102,7 @@ liri.js CLI will then offer one of the following four options:
 
 ## Demo
 
-A demo video of this assignment can be viewed [here](https://drive.google.com/file/d/1X-l7SZlw-d3SdG6MT8V3DByfbhmWHls7/view?usp=sharing)
+A demo video of this assignment can be viewed [here](https://drive.google.com/file/d/1l24i-neX9e_ftc3W8f6sUAm21QmY55GP/view?usp=sharing)
 
 
 An example log file of the output `log.txt` is provided in this repository.
