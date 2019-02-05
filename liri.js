@@ -34,9 +34,8 @@ function userOption () {
                 {
                     type: "input",
                     name: "search",
-                    message: "Enter Your Desired Search",
-                }
-            ]).then(function(response) { 
+                    message: "Enter Your Desired Search"
+            }]).then(function(response) { 
                 // remove spaces, concatenate search string with "+" value
                 searchVal = response.search.replace(" ", "+");
                 getInput(option,searchVal);  
@@ -69,26 +68,37 @@ function getInput(option,searchVal) {
 };
 
 function concertThis(searchVal) {
-    var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
-    // remove the '+' characters for display
-    var dispVal = searchVal.replace(/\+/g, ' ');
-    logText = ("\n*********************************************************\n");
-    logText = logText + "concert-this response for: "  + dispVal + "\n";
-    logText = logText + ("*********************************************************\n\n");
-    axios.get(concertThisURL).then(
-        function(response) {
-        concertData = response.data;
-        concertData.forEach(concert => {
-            var concertDate = moment(concert.datetime).format('MM/DD/YYYY');
-            logText = logText + "Venue Name: " + concert.venue.name + "\n" +          
-            "Venue Location: " + concert.venue.city + " " + concert.venue.region + "\n" +
-            "Date: " + concertDate + "\n\n";
-            });
+    if (searchVal !== "") {
+        var concertThisURL = "https://rest.bandsintown.com/artists/" + searchVal + "/events?app_id=codingbootcamp";
+        // remove the '+' characters for display
+        var dispVal = searchVal.replace(/\+/g, ' ');
+        logText = ("\n*********************************************************\n");
+        logText = logText + "concert-this response for: "  + dispVal + "\n";
+        logText = logText + ("*********************************************************\n\n");
+        axios.get(concertThisURL).then(
+            function(response) {
+            concertData = response.data;
+            if (!Array.isArray(concertData) || !concertData.length) {
+                logText = "\nNo concerts scheduled for " + dispVal + "\n";
+                } else {
+                concertData.forEach(concert => {
+                    var concertDate = moment(concert.datetime).format('MM/DD/YYYY');
+                    logText = logText + "Venue Name: " + concert.venue.name + "\n" +          
+                    "Venue Location: " + concert.venue.city + " " + concert.venue.region + "\n" +
+                    "Date: " + concertDate + "\n\n";
+                    });
+                }
+            console.log(logText);
+            logResponse(logText);
+            reRun();
+            }
+        );
+    } else { 
+        logText = "\nNo artist or band entered for search\n";
         console.log(logText);
         logResponse(logText);
         reRun();
-        }
-    );
+        };
 };
 
 function spotifyThisSong(searchVal) {
@@ -107,12 +117,16 @@ function spotifyThisSong(searchVal) {
         logText = ("\n*********************************************************\n");
         logText = logText + "spotify-this-song response for: "  + dispVal + "\n";
         logText = logText + ("*********************************************************\n\n");
-        songData.forEach(song => {
-            logText = logText + "Artist: " + song.artists[0].name + "\n" +
-            "Song Name: " + song.name + "\n" +
-            "Preview: " + song.preview_url + "\n" +
-            "Album: " + song.album.name + "\n\n";
-        });
+        if (!Array.isArray(songData) || !songData.length) {
+            logText = "\nNo song data for " + dispVal + "\n";
+            } else {
+            songData.forEach(song => {
+                logText = logText + "Artist: " + song.artists[0].name + "\n" +
+                "Song Name: " + song.name + "\n" +
+                "Preview: " + song.preview_url + "\n" +
+                "Album: " + song.album.name + "\n\n";
+                });
+            }
     console.log(logText);
     logResponse(logText);
     reRun();
@@ -137,11 +151,15 @@ function movieThis(searchVal) {
 
     axios.get(queryUrl).then(
     function(response) {
-        logText = logText + "Title: " + response.data.Title + "\n" +
-        "Actors: " + response.data.Actors + "\n" +
-        "Year Released: " + response.data.Released + "\n" +
-        "IMDB Rating: " + response.data.Ratings[0].Value + "\n" +
-        "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n\n";
+        if (response.data.Response === "True") {
+            logText = logText + "Title: " + response.data.Title + "\n" +
+            "Actors: " + response.data.Actors + "\n" +
+            "Year Released: " + response.data.Released + "\n" +
+            "IMDB Rating: " + response.data.Ratings[0].Value + "\n" +
+            "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\n\n";
+            } else {
+                logText = "\nNo movie data found\n";
+            }
         console.log(logText);
         logResponse(logText);
         reRun();
@@ -183,7 +201,7 @@ function reRun() {
             userOption();
         }
         else {
-            logText = "Thank you - goodbye";
+            logText = "\nThank you - goodbye\n";
             console.log(logText);
             logResponse(logText);
         }
