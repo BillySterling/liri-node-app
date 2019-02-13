@@ -30,14 +30,15 @@ function userOption () {
         option = choice.option;
         if (option !== "do-what-it-says") {
             // if NOT option "do-what-it-says" then prompt the user to input a search string
-            inquirer.prompt([
-                {
-                    type: "input",
-                    name: "search",
-                    message: "Enter Your Desired Search"
-            }]).then(function(response) { 
+                inquirer.prompt([
+                    {
+                        type: "input",
+                        name: "search",
+                        message: "Enter Your Desired Search"
+                }]).then(function(response) { 
                 // remove spaces, concatenate search string with "+" value
                 searchVal = response.search.replace(" ", "+");
+                debugger;
                 getInput(option,searchVal);  
             });   
         } else {

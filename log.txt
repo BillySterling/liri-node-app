@@ -318,3 +318,284 @@ Album: I Want It That Way
 
 
 Thank you - goodbye
+
+*********************************************************
+concert-this response for: Weezer
+*********************************************************
+
+Venue Name: KFC Yum! Center
+Venue Location: Louisville KY
+Date: 03/08/2019
+
+Venue Name: Colonial Life Arena
+Venue Location: Columbia SC
+Date: 03/10/2019
+
+Venue Name: Madison Square Garden
+Venue Location: New York NY
+Date: 03/12/2019
+
+Venue Name: Bell Centre
+Venue Location: Montréal 
+Date: 03/13/2019
+
+Venue Name: Times Union Center
+Venue Location: Albany NY
+Date: 03/14/2019
+
+Venue Name: Foxwoods Resort Casino - Grand Theater
+Venue Location: Mashantucket CT
+Date: 03/16/2019
+
+Venue Name: Royal Farms Arena
+Venue Location: Baltimore MD
+Date: 03/17/2019
+
+Venue Name: Schottenstein Center
+Venue Location: Columbus OH
+Date: 03/19/2019
+
+Venue Name: Van Andel Arena
+Venue Location: Grand Rapids MI
+Date: 03/20/2019
+
+Venue Name: FedEx Forum
+Venue Location: Memphis TN
+Date: 03/22/2019
+
+Venue Name: Enterprise Center
+Venue Location: St. Louis MO
+Date: 03/24/2019
+
+Venue Name: Sprint Center
+Venue Location: Kansas City MO
+Date: 03/26/2019
+
+Venue Name: BOK Center
+Venue Location: Tulsa OK
+Date: 03/27/2019
+
+Venue Name: Wells Fargo Arena
+Venue Location: Des Moines IA
+Date: 03/28/2019
+
+Venue Name: Xcel Energy Center
+Venue Location: St Paul MN
+Date: 03/30/2019
+
+Venue Name: Alliant Energy Center - Veterans Memorial Coliseum
+Venue Location: Madison WI
+Date: 03/31/2019
+
+Venue Name: Ford Idaho Center Arena
+Venue Location: Nampa ID
+Date: 04/05/2019
+
+Venue Name: Moda Center
+Venue Location: Portland OR
+Date: 04/06/2019
+
+Venue Name: Rogers Arena 
+Venue Location: Vancouver 
+Date: 04/07/2019
+
+Venue Name: Golden 1 Center
+Venue Location: Sacramento CA
+Date: 04/09/2019
+
+Venue Name: Oracle Arena
+Venue Location: Oakland CA
+Date: 04/10/2019
+
+Venue Name: Mandalay Bay Events Center
+Venue Location: Las Vegas NV
+Date: 04/12/2019
+
+Venue Name: Coachella
+Venue Location: Indio CA
+Date: 04/13/2019
+
+Venue Name: Coachella
+Venue Location: Indio CA
+Date: 04/20/2019
+
+Venue Name: Rock Werchter 2019
+Venue Location: Werchter 
+Date: 06/28/2019
+
+Venue Name: O2 Academy Brixton
+Venue Location: London 
+Date: 06/29/2019
+
+Venue Name: Stadtpark
+Venue Location: Hamburg 
+Date: 07/02/2019
+
+Venue Name: Tivoli Vredenburg
+Venue Location: Utrecht 
+Date: 07/04/2019
+
+Venue Name: Eurockéennes
+Venue Location: Belfort 
+Date: 07/06/2019
+
+Venue Name: Sonic Park 
+Venue Location: Bologna 
+Date: 07/07/2019
+
+Venue Name: Xtra
+Venue Location: Zurich 
+Date: 07/08/2019
+
+Venue Name: NOS Alive Festival
+Venue Location: Oeiras 
+Date: 07/11/2019
+
+Venue Name: Bilbao BBK (July 11th-13th, Single Day TBA)
+Venue Location: Bilbao 
+Date: 07/13/2019
+
+Venue Name: Grönan Live
+Venue Location: Stockholm 
+Date: 07/16/2019
+
+Venue Name: Bukta Open Air Festival (July 18th-20th, Single Day TBA)
+Venue Location: Tromsø 
+Date: 07/18/2019
+
+Venue Name: Malakoff Festival (July 18th-20th, Single Day TBA)
+Venue Location: Nordfjordeid (sogn Og Fjordane) 
+Date: 07/20/2019
+
+
+Thank you - goodbye
+
+*********************************************************
+spotify-this-song response for: The Sign Ace of Base
+*********************************************************
+
+Artist: Ace of Base
+Song Name: The Sign
+Preview: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Sign (US Album) [Remastered]
+
+
+Thank you - goodbye
+
+No artist or band entered for search
+
+Thank you - goodbye
+
+*********************************************************
+movie-this response for: Mr. Nobody
+*********************************************************
+
+Title: Mr. Nobody
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Year Released: 26 Sep 2013
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+
+
+Thank you - goodbye
+
+*********************************************************
+movie-this response for: Star Trek
+*********************************************************
+
+Title: Star Trek
+Actors: Chris Pine, Zachary Quinto, Leonard Nimoy, Eric Bana
+Year Released: 08 May 2009
+IMDB Rating: 8.0/10
+Rotten Tomatoes Rating: 94%
+
+
+Thank you - goodbye
+
+*********************************************************
+movie-this response for: STar Trek
+*********************************************************
+
+Title: Star Trek
+Actors: Chris Pine, Zachary Quinto, Leonard Nimoy, Eric Bana
+Year Released: 08 May 2009
+IMDB Rating: 8.0/10
+Rotten Tomatoes Rating: 94%
+
+
+Thank you - goodbye
+
+*********************************************************
+concert-this response for: Volbeat
+*********************************************************
+
+Venue Name: Bridgestone Arena
+Venue Location: Nashville TN
+Date: 04/16/2019
+
+Venue Name: Ford Center
+Venue Location: Evansville IN
+Date: 04/18/2019
+
+Venue Name: Van Andel Arena
+Venue Location: Grand Rapids MI
+Date: 04/19/2019
+
+Venue Name: Fiserv Forum
+Venue Location: Milwaukee WI
+Date: 04/20/2019
+
+Venue Name: Armory
+Venue Location: Minneapolis MN
+Date: 04/22/2019
+
+Venue Name: Baxter Arena
+Venue Location: Omaha NE
+Date: 04/23/2019
+
+Venue Name: Abbotsford Centre
+Venue Location: Abbotsford 
+Date: 04/26/2019
+
+Venue Name: Canalta Centre
+Venue Location: Medicine Hat 
+Date: 04/29/2019
+
+Venue Name: Grey Eagle Event Centre
+Venue Location: Calgary 
+Date: 04/30/2019
+
+Venue Name: Rogers Place
+Venue Location: Edmonton 
+Date: 05/03/2019
+
+Venue Name: Sasktel Centre
+Venue Location: Saskatoon 
+Date: 05/05/2019
+
+Venue Name: Bell MTS Place
+Venue Location: Winnipeg 
+Date: 05/06/2019
+
+Venue Name: Budweiser Gardens
+Venue Location: London 
+Date: 05/09/2019
+
+Venue Name: Canadian Tire Centre
+Venue Location: Ottawa 
+Date: 05/10/2019
+
+Venue Name: Videotron Centre
+Venue Location: Ville De Québec 
+Date: 05/11/2019
+
+Venue Name: Ekeberg
+Venue Location: Oslo 
+Date: 06/28/2019
+
+Venue Name: Ceres Park
+Venue Location: Aarhus C 
+Date: 06/29/2019
+
+
+Thank you - goodbye
