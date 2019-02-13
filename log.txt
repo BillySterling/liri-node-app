@@ -599,3 +599,18 @@ Date: 06/29/2019
 
 
 Thank you - goodbye
+
+No artist or band entered for search
+
+*********************************************************
+movie-this response for: Mr. Nobody
+*********************************************************
+
+Title: Mr. Nobody
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Year Released: 26 Sep 2013
+IMDB Rating: 7.8/10
+Rotten Tomatoes Rating: 67%
+
+
+No artist or band entered for search

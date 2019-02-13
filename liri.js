@@ -38,7 +38,6 @@ function userOption () {
                 }]).then(function(response) { 
                 // remove spaces, concatenate search string with "+" value
                 searchVal = response.search.replace(" ", "+");
-                debugger;
                 getInput(option,searchVal);  
             });   
         } else {
