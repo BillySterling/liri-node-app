@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // required npm packages
 require("dotenv").config();
 var axios = require("axios");
@@ -45,7 +46,7 @@ function userOption () {
             getInput(option);  
         }
     });
-};
+}
 
 function getInput(option,searchVal) {
     switch(option) {
@@ -64,8 +65,8 @@ function getInput(option,searchVal) {
         default:
             logText = "*** INVALID INPUT *** \n\n";
             logResponse(logText);
-    }; 
-};
+    } 
+}
 
 function concertThis(searchVal) {
     if (searchVal !== "") {
@@ -77,7 +78,7 @@ function concertThis(searchVal) {
         logText = logText + ("*********************************************************\n\n");
         axios.get(concertThisURL).then(
             function(response) {
-            concertData = response.data;
+            var concertData = response.data;
             if (!Array.isArray(concertData) || !concertData.length) {
                 logText = "\nNo concerts scheduled for " + dispVal + "\n";
                 } else {
@@ -98,8 +99,8 @@ function concertThis(searchVal) {
         console.log(logText);
         logResponse(logText);
         reRun();
-        };
-};
+        }
+}
 
 function spotifyThisSong(searchVal) {
     var spotify = new Spotify(keys.spotify);
@@ -111,7 +112,7 @@ function spotifyThisSong(searchVal) {
     }
     spotify.search({ type: 'track', query: searchVal, limit: songLimit})
     .then(function(response) {
-        songData = response.tracks.items;
+        var songData = response.tracks.items;
         // remove the '+' characters for display
         var dispVal = searchVal.replace(/\+/g, ' ');
         logText = ("\n*********************************************************\n");
@@ -135,7 +136,7 @@ function spotifyThisSong(searchVal) {
     console.log(err);
     logResponse(err);
     });
-};
+}
 
 function movieThis(searchVal) {
     if (!searchVal) {
@@ -165,7 +166,7 @@ function movieThis(searchVal) {
         reRun();
         }
     );
-};
+}
 
 function doWhatItSays() {
     fs.readFile("random.txt", "utf8", function(error, data) {
@@ -180,11 +181,12 @@ function doWhatItSays() {
         option = dataArr[0];
         searchVal = dataArr[1];
         // remove extra double quotes
+        // eslint-disable-next-line no-useless-escape
         searchVal = searchVal.replace(/\"/g, '');
         // call the main input process with the values from the file
         getInput(option,searchVal);
     });
-};
+}
 
 //option to search again or exit
 function reRun() {
@@ -206,7 +208,7 @@ function reRun() {
             logResponse(logText);
         }
     });
-};
+}
 
 function logResponse(logText) {
     // append the text into the "log.txt" file.
@@ -221,4 +223,4 @@ function logResponse(logText) {
         }
     });
 logText = "";    
-};
+}
