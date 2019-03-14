@@ -1,7 +1,5 @@
 # liri-node-app
 
-Georgia Tech Coding Bootcamp week 10 **Node.js** assignment
-
 ## Overview
 
 Meet LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line Node.js app that takes in parameters and gives you back data.
