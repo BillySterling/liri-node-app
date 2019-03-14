@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 console.log('this is loaded');
 
 exports.spotify = {
