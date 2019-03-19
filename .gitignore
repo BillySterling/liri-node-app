@@ -5,3 +5,4 @@ node_modules
 .eslintre.json
 .eslintrc.json
 debug.log
+log.txt

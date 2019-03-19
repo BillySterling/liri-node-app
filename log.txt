@@ -616,3 +616,626 @@ Rotten Tomatoes Rating: 67%
 No artist or band entered for search
 
 No artist or band entered for search
+
+*********************************************************
+spotify-this-song response for: Burn it Down
+*********************************************************
+
+Artist: Linkin Park
+Song Name: BURN IT DOWN
+Preview: https://p.scdn.co/mp3-preview/34ae5b62f7758e3326a1c1964f5768e4ed0e27a8?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: LIVING THINGS
+
+Artist: Tech N9ne
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/a2c499416b61460c2961d1fc43736348a9a45731?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Special Effects
+
+Artist: Skillet
+Song Name: Burn it Down
+Preview: https://p.scdn.co/mp3-preview/0d41689cb3d14b5a4a897b76e0d1765e7bb5c6f8?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Unleashed
+
+Artist: Avenged Sevenfold
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/d8ae607eb5679356d4dc1780179163af925ba2ad?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: City Of Evil (PA Version)
+
+Artist: Five Finger Death Punch
+Song Name: Burn It Down
+Preview: null
+Album: War Is The Answer
+
+Artist: Fitz and The Tantrums
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/1c0da24b11451030c516c8d918aad29d8b5e70b4?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Fitz and The Tantrums (Deluxe)
+
+Artist: WWE
+Song Name: The Second Coming (Burn It Down) [Seth Rollins]
+Preview: https://p.scdn.co/mp3-preview/27242d1666369b29c9b4fbece8d7e80567923644?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Second Coming (Burn It Down) [Seth Rollins]
+
+Artist: Daughter
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/8a6646555e14e84e931f7333e57c346f59284705?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Music from Before the Storm
+
+Artist: AWOLNATION
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/cf65133cef3a282dfb50a20de54cecb82056c19f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Megalithic Symphony
+
+Artist: Skillet
+Song Name: Burn it Down
+Preview: https://p.scdn.co/mp3-preview/0d41689cb3d14b5a4a897b76e0d1765e7bb5c6f8?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Unleashed Beyond (Special Edition)
+
+Artist: Linkin Park
+Song Name: Burn It Down - One More Light Live
+Preview: https://p.scdn.co/mp3-preview/aa721f6c42992305237a0c9bdce67559f23d4a7a?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: One More Light Live
+
+Artist: AWOLNATION
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/b470b33db5cd48b56ebd9f296c48493462e7518c?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Megalithic Symphony Deluxe
+
+Artist: Timeflies
+Song Name: Burn It Down
+Preview: null
+Album: Just For Fun
+
+Artist: Alter Bridge
+Song Name: Burn It Down
+Preview: null
+Album: One Day Remains
+
+Artist: Hinder
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/e0aa71ad36925ffc73749c6eb219360190b0b076?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Reign
+
+Artist: Mindset Evolution
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/828fa8eae7bb514384d27cc518bdb3f4fe03b83f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Brave, Bold & Broken
+
+Artist: The Cog is Dead
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/79c578b2fa1ea56d003197335d349953c9ffbcdd?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Full Steam Ahead!
+
+Artist: Linkin Park
+Song Name: BURN IT DOWN - Tom Swoon Remix
+Preview: https://p.scdn.co/mp3-preview/cbd103604022ebed7d53e3fbaabe87d720cb72bd?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: RECHARGED
+
+Artist: The Dead Daisies
+Song Name: Resurrected
+Preview: https://p.scdn.co/mp3-preview/eb03cb212cc383aebc08a391345002705533a371?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Burn It Down
+
+Artist: Five Finger Death Punch
+Song Name: Burn It Down
+Preview: https://p.scdn.co/mp3-preview/37f54aca4c0ca5167c5b1f9d6f6a698a477b7306?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: War Is the Answer
+
+
+Thank you - goodbye
+
+*********************************************************
+concert-this response for: Foreigner
+*********************************************************
+
+Venue Name: Tilles Center’s Concert Hall
+Venue Location: Greenvale NY
+Date: 03/21/2019
+
+Venue Name: Live! Center Stage
+Venue Location: Hanover MD
+Date: 03/22/2019
+
+Venue Name: Harrah's Cherokee Casino Resort
+Venue Location: Cherokee NC
+Date: 03/23/2019
+
+Venue Name: 70s Rock & Romance Cruise
+Venue Location: Ft. Lauderdale FL
+Date: 03/25/2019
+
+Venue Name: Majestic Theatre San Antonio
+Venue Location: San Antonio TX
+Date: 04/11/2019
+
+Venue Name: Horseshoe Casino Riverdome
+Venue Location: Bossier City LA
+Date: 04/12/2019
+
+Venue Name: Horseshoe Tunica Hotel & Casino
+Venue Location: Robinsonville MS
+Date: 04/13/2019
+
+Venue Name: Amarillo Civic Center Auditorium
+Venue Location: Amarillo TX
+Date: 04/15/2019
+
+Venue Name: River Spirit Casino Resort
+Venue Location: Tulsa OK
+Date: 04/18/2019
+
+Venue Name: Riverwind Casino Showplace Theatre
+Venue Location: Norman OK
+Date: 04/19/2019
+
+Venue Name: Choctaw Grand Theater
+Venue Location: Durant OK
+Date: 04/20/2019
+
+Venue Name: Julie Rogers Theatre
+Venue Location: Beaumont TX
+Date: 04/22/2019
+
+Venue Name: American Bank Center Selena Auditorium
+Venue Location: Corpus Christi TX
+Date: 04/23/2019
+
+Venue Name: McAllen Performing Arts Center
+Venue Location: Mcallen TX
+Date: 04/24/2019
+
+Venue Name: Hard Rock Cafe
+Venue Location: Biloxi MS
+Date: 04/26/2019
+
+Venue Name: Wild Adventures
+Venue Location: Valdosta GA
+Date: 04/27/2019
+
+Venue Name: Food & Wine Festival @ Busch Gardens Tampa Bay
+Venue Location: Tampa FL
+Date: 04/28/2019
+
+Venue Name: Bergen Performing Arts Center
+Venue Location: Englewood NJ
+Date: 05/03/2019
+
+Venue Name: XCite Center at Parx Casino
+Venue Location: Pa Bensalem
+Date: 05/04/2019
+
+Venue Name: Turning Stone Resort Casino
+Venue Location: Verona NY
+Date: 05/05/2019
+
+Venue Name: Count Basie Theatre
+Venue Location: Red Bank NJ
+Date: 05/07/2019
+
+Venue Name: Mayo Performing Arts Center
+Venue Location: Morristown NJ
+Date: 05/08/2019
+
+Venue Name: Hanover Theatre Mural
+Venue Location: Worcester MA
+Date: 05/09/2019
+
+Venue Name: American Music Theatre
+Venue Location: Lancaster PA
+Date: 05/10/2019
+
+Venue Name: Indy 500 Miller Carb Day
+Venue Location: Indianapolis IN
+Date: 05/24/2019
+
+Venue Name: Silver Creek Event Center at Four Winds New Buffalo
+Venue Location: New Buffalo MI
+Date: 05/25/2019
+
+Venue Name: Treasure Island Resort and Casino
+Venue Location: Welch MN
+Date: 05/26/2019
+
+Venue Name: SANDIA CASINO AMPHITHEATER
+Venue Location: Albuquerque NM
+Date: 06/06/2019
+
+Venue Name: The Pool at Talking Stick Resort
+Venue Location: Scottsdale AZ
+Date: 06/07/2019
+
+Venue Name: Star of the Desert Arena
+Venue Location: Primm NV
+Date: 06/08/2019
+
+Venue Name: Vina Robles Amphitheatre
+Venue Location: Paso Robles CA
+Date: 06/09/2019
+
+Venue Name: Pala Casino - Events Center
+Venue Location: Pala CA
+Date: 06/13/2019
+
+Venue Name: Thunder Valley Casino & Resort
+Venue Location: Lincoln CA
+Date: 06/14/2019
+
+Venue Name: Taste of Joliet
+Venue Location: Joliet IL
+Date: 06/21/2019
+
+Venue Name: Hollywood Casino & Hotel Lawrenceburg
+Venue Location: Lawrenceburg IN
+Date: 06/22/2019
+
+Venue Name: Clam Rock Festival
+Venue Location: Perg District 
+Date: 06/29/2019
+
+Venue Name: CARMEN WÜRTH FORUM
+Venue Location: Kunzelsau 
+Date: 06/30/2019
+
+Venue Name: Flens-Arena
+Venue Location: Flensburg 
+Date: 07/02/2019
+
+Venue Name: Kulturwerft Gollan
+Venue Location: Lubeck 
+Date: 07/03/2019
+
+Venue Name: Almeauen Büren
+Venue Location: Buren 
+Date: 07/04/2019
+
+Venue Name: Klosterhof Wiblingen
+Venue Location: Ulm 
+Date: 07/06/2019
+
+Venue Name: St. Peter at Sunset Festival
+Venue Location: Kestenholz 
+Date: 07/07/2019
+
+Venue Name: Zitadelle Mainz
+Venue Location: Mainz 
+Date: 07/09/2019
+
+Venue Name: Philharmonie am Gasteig
+Venue Location: München 
+Date: 07/11/2019
+
+Venue Name: Amphitheater Gelsenkirchen
+Venue Location: Gelsenkirchen 
+Date: 07/12/2019
+
+Venue Name: Bospop '19: 12 - 14 juli
+Venue Location: Weert 
+Date: 07/14/2019
+
+Venue Name: Zitadelle Spandau
+Venue Location: Berlin-altglienicke 
+Date: 07/15/2019
+
+Venue Name: Dolina Charlotty
+Venue Location: Slupsk 
+Date: 07/17/2019
+
+Venue Name: Scone Palace
+Venue Location: Perth 
+Date: 07/19/2019
+
+Venue Name: Ramblin' Man Fair
+Venue Location: Kent 
+Date: 07/21/2019
+
+Venue Name: Jackson County Fairgrounds
+Venue Location: Jackson MI
+Date: 08/07/2019
+
+Venue Name: Kewadin Casinos – St. Ignace
+Venue Location: St Ignace MI
+Date: 08/08/2019
+
+Venue Name: Rock the Hill @ Veterans Memorial Park
+Venue Location: Mi Bay City
+Date: 08/09/2019
+
+Venue Name: Rose Music Center at The Heights
+Venue Location: Huber Heights OH
+Date: 08/12/2019
+
+Venue Name: Old National Events Plaza
+Venue Location: Evansville IN
+Date: 08/13/2019
+
+Venue Name: Iowa State Fair
+Venue Location: Des Moines IA
+Date: 08/15/2019
+
+Venue Name: Lorain County Fair
+Venue Location: Wellington OH
+Date: 08/20/2019
+
+Venue Name: Cape Cod Melody Tent
+Venue Location: Hyannis MA
+Date: 08/23/2019
+
+Venue Name: South Shore Music Circus
+Venue Location: Cohasset MA
+Date: 08/24/2019
+
+Venue Name: Hampton Beach Casino Ballroom
+Venue Location: Hampton Beach NH
+Date: 08/25/2019
+
+Venue Name: Artpark
+Venue Location: Ny Lewiston
+Date: 08/27/2019
+
+Venue Name: Casino Rama
+Venue Location: Rama 
+Date: 08/29/2019
+
+Venue Name: Casino Rama
+Venue Location: Rama 
+Date: 08/30/2019
+
+Venue Name: Centre In The Square
+Venue Location: Kitchener 
+Date: 09/03/2019
+
+Venue Name: Clay County Fair
+Venue Location: Spencer IA
+Date: 09/07/2019
+
+Venue Name: KettleHouse Amphitheater
+Venue Location: Bonner-west Riverside MT
+Date: 09/09/2019
+
+Venue Name: Outlaw Field at the Idaho Botanical Garden
+Venue Location: Boise ID
+Date: 09/12/2019
+
+Venue Name: Utah State Fairpark
+Venue Location: Salt Lake City UT
+Date: 09/13/2019
+
+Venue Name: Washington State Fair Events Center
+Venue Location: Puyallup WA
+Date: 09/18/2019
+
+Venue Name: Bloomsburg Fair Association
+Venue Location: Bloomsburg PA
+Date: 09/27/2019
+
+Venue Name: Eastern States Exposition
+Venue Location: West Springfield MA
+Date: 09/29/2019
+
+Venue Name: Schermerhorn Symphony Center
+Venue Location: Nashville TN
+Date: 01/18/2020
+
+
+Thank you - goodbye
+
+*********************************************************
+spotify-this-song response for: Enter Sandman
+*********************************************************
+
+Artist: Metallica
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/1ee9f1b0c3e3b327dd49ebc6dd64266b01adb96a?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Metallica
+
+Artist: Metallica
+Song Name: Enter Sandman - Live with the SFSO
+Preview: https://p.scdn.co/mp3-preview/4cf9b664e824310276094079f4693d8fc7f1d5a2?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: S&M
+
+Artist: Metallica
+Song Name: Enter Sandman (Live)
+Preview: https://p.scdn.co/mp3-preview/4293b87c32c97edb8b8ffc64ea44974e00964ee7?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Metallica Through The Never (Music from the Motion Picture)
+
+Artist: Metallica
+Song Name: Enter Sandman (Live in Mexico City)
+Preview: https://p.scdn.co/mp3-preview/1b68daecc93dad2de0eda9e5db751f956291d9ea?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Live S**t: Binge & Purge
+
+Artist: Richard Cheese
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/6ff83c51b6e85122167b9457192c0cdc2b04a56c?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Aperitif For Destruction
+
+Artist: Rockabye Baby!
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/5473cff3b9aa1748d5d3de41bc323ac7128cdb84?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Lullaby Renditions of Metallica
+
+Artist: Metallica
+Song Name: Enter Sandman (Live at The Masonic, San Francisco, CA - November 3rd, 2018)
+Preview: https://p.scdn.co/mp3-preview/5bd2485d5fd4d790678e551626724a84c615bc71?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Helping Hands...Live & Acoustic at The Masonic
+
+Artist: Goddesses of Bagpipes
+Song Name: Shipping up to Boston / Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/f0becb1a03f689b85b59342b15bc13e66ef0a784?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Shipping up to Boston / Enter Sandman
+
+Artist: Apocalyptica
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/65dbb8fb6d42b38348b1731715f698bcc055e0d8?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Plays Metallica by Four Cellos (Remastered)
+
+Artist: Liliac
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/d2fcdbfffee90a27f271a474ae825ba0103a957f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Enter Sandman
+
+Artist: SHEL
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/df7ccfb95bbd49a0d6c677cca1e921c5f0418b2e?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Just Crazy Enough
+
+Artist: U2
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/39d4e54bbfb8d740d6fdccfff2a08e9bd6a8a311?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The 25th Anniversary Rock & Roll Hall Of Fame Concerts
+
+Artist: Volbeat
+Song Name: Enter Sandman - Live from Telia Parken
+Preview: null
+Album: Let's Boogie! (Live from Telia Parken)
+
+Artist: The North 41
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/7681f68062320c8624129645c8b194d9b5553d1b?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: N41 Live, Vol. 1
+
+Artist: John 5
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/a93f7bb7a0a17952af21db8da6e84931c77d9748?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Enter Sandman
+
+Artist: Leo
+Song Name: Enter Sandman (Alternative Version)
+Preview: https://p.scdn.co/mp3-preview/ab498a9cb1b9c18716d341dcbded00955a49a56b?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Leo Metal Volume 17
+
+Artist: Apocalyptica
+Song Name: Enter Sandman - Live
+Preview: https://p.scdn.co/mp3-preview/7c25f608383acfba820e3291f4e650e3b15a9598?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Plays Metallica by Four Cellos - a Live Performance
+
+Artist: Ten Second Songs
+Song Name: Enter Sandman in 20 Styles
+Preview: https://p.scdn.co/mp3-preview/f6c58883478068494add1fd46772bc90ecf98662?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Enter Sandman in 20 Styles
+
+Artist: Cookin' On 3 Burners
+Song Name: Enter Sandman
+Preview: https://p.scdn.co/mp3-preview/5fd0e20e426dd092773d16687d2d50415c91e99a?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Lab Experiments: Mixin', Vol. 1
+
+Artist: Apocalyptica
+Song Name: Enter Sandman - Instrumental Version
+Preview: https://p.scdn.co/mp3-preview/3379ab87a64cb107837561b1e1968132c3d66faa?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Amplified - A Decade of Reinventing the Cello
+
+
+*********************************************************
+movie-this response for: Fight Club
+*********************************************************
+
+Title: Fight Club
+Actors: Edward Norton, Brad Pitt, Meat Loaf, Zach Grenier
+Year Released: 15 Oct 1999
+IMDB Rating: 8.8/10
+Rotten Tomatoes Rating: 79%
+
+
+*********************************************************
+spotify-this-song response for: I Want it That Way
+*********************************************************
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Hits--Chapter One
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Millennium
+
+Artist: Anthem Lights
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Covers Part IV
+
+Artist: Tyler and Mark
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Beautiful Dreams
+
+Artist: "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Poodle Hat
+
+Artist: Dynamite Boy
+Song Name: I Want It That Way
+Preview: null
+Album: Punk Goes Pop
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: 90 Sweet 90s Hits!
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: NKOTBSB
+
+Artist: Glee Cast
+Song Name: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+Preview: https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+
+Artist: Boyce Avenue
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Cover Sessions, Vol. 2
+
+Artist: Manuel Costa
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: I Want It That Way
+
+Artist: Steel Panther
+Song Name: I Want It That Way
+Preview: null
+Album: I Want It That Way
+
+Artist: Marcelo Rezende
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/e917efb886afa262114a59cbdbdb6fe8bef57583?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Ballads in Bossa (The Colors of Love Ballads)
+
+Artist: Scary Pockets
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Nu Funk
+
+Artist: Nu Shooz
+Song Name: If That's the Way You Want It
+Preview: https://p.scdn.co/mp3-preview/eff766f4ad36994de74f2f385d99f9b1355c6f2a?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: I Can't Wait: Collected
+
+Artist: Scott Bradlee's Postmodern Jukebox
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: Selfies on Kodachrome
+
+Artist: "Weird Al" Yankovic
+Song Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
+Preview: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: The Essential "Weird Al" Yankovic
+
+Artist: Backstreet Boys
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: NOW That's What I Call 90s Pop
+
+Artist: #90s Update
+Song Name: I Want It That Way
+Preview: https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=2dc7c3505f86401b96c6a5ca7381f3d1
+Album: #90s Update
+
+Artist: Kidz Bop Kids
+Song Name: I Want It That Way
+Preview: null
+Album: Kidz Bop
+

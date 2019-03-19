@@ -51,6 +51,9 @@ The Spotify API requires you sign up as a developer to generate the necessary cr
 
 `node liri.js`
 
+![LIRI Options](LIRI-1.png)
+
+
 liri.js CLI will then offer one of the following four options:
 
 1. `concert-this`
@@ -60,6 +63,9 @@ liri.js CLI will then offer one of the following four options:
     * *Name of the venue*
     * *Venue location*
     * *Date of the Event*
+
+
+![LIRI concert-this](LIRI-2.png)
 
 
 
@@ -72,6 +78,9 @@ liri.js CLI will then offer one of the following four options:
     * *A preview link of the song from Spotify (if available)*
     * *The album that the song is from*
     * *If no song is provided the program defaults to "The Sign" by Ace of Base.*
+
+
+![LIRI spotify-this-song](LIRI-3.png)
 
 
 
@@ -89,6 +98,9 @@ liri.js CLI will then offer one of the following four options:
     * *Actors in the movie.*
 
 
+![LIRI movie-this](LIRI-4.png)
+
+
 
 4. `do-what-it-says`
 
@@ -97,6 +109,11 @@ liri.js CLI will then offer one of the following four options:
     *It should run `spotify-this-song` for "I Want it That Way," as read from the text in `random.txt`.*
 
     *Edit the text in `random.txt` to test out the feature for `movie-this` and `concert-this`.*
+
+
+![LIRI do-what-it-says](LIRI-5.png)
+
+
 
 ## Demo
 
